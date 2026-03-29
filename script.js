@@ -7,7 +7,7 @@
     for (var i = 0; i < count; i++) {
       var cell = document.createElement("span");
       cell.className = "sorry__cell";
-      cell.textContent = "sorry";
+      cell.textContent = "sorry Sidd";
       fragment.appendChild(cell);
     }
 

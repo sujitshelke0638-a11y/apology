@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For Madam Ji — Siddhi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="hearts-bg" id="hearts-bg" aria-hidden="true"></div>
+  <div class="confetti-root" id="confetti-root" aria-hidden="true"></div>
+
+  <header class="hero">
+    <p class="hero__eyebrow">Madam Ji — this page was made only for you</p>
+    <h1 class="hero__title">You mean more to me than words can hold</h1>
+    <p class="hero__subtitle">I’m sorry I haven’t understood yet—but I’m here, with my whole heart, ready to listen.</p>
+    <a class="scroll-hint" href="#letter">Read what I need you to know</a>
+  </header>
+
+  <main>
+    <section id="letter" class="letter section">
+      <div class="letter__paper">
+        <h2>For you</h2>
+        <p>
+          I don’t know the full reason you’ve gone quiet, and that uncertainty hurts—but what I know without doubt is how much you matter to me. You’re not just someone I care about; you’re someone who has shaped how I see kindness, strength, and warmth.
+        </p>
+        <p>
+          If I did or said something that pushed you away, I own that. There is no pride here—only regret that you might have felt alone in any of it.
+        </p>
+        <p class="letter__emphasis">
+          I’m ready to say I’m sorry—not once, but again and again—until you feel it in your bones how sorry I am and how much I value you.
+        </p>
+        <p>
+          You deserve to feel chosen, celebrated, and safe. This little corner of the internet exists because I wanted one place that says clearly: <strong>you are special</strong>, and you always will be to me.
+        </p>
+        <p class="letter__signoff">With love and respect,</p>
+        <p class="letter__name"><span class="editable" contenteditable="true" spellcheck="false" data-placeholder="Your name">Your name</span></p>
+      </div>
+    </section>
+
+    <section class="special section">
+      <h2>What makes you extraordinary</h2>
+      <ul class="special__list">
+        <li><span class="special__icon" aria-hidden="true">✦</span> The way you show up—with honesty, softness, or strength when it counts.</li>
+        <li><span class="special__icon" aria-hidden="true">✦</span> How you’ve been a safe place in my life, even when things were messy.</li>
+        <li><span class="special__icon" aria-hidden="true">✦</span> The little things only you do that I never want to take for granted again.</li>
+      </ul>
+    </section>
+
+    <section class="sorry section" aria-labelledby="sorry-title">
+      <h2 id="sorry-title"><strong class="sorry__title-bold">1000 sorry Sidd</strong></h2>
+      <p class="sorry__intro">Every spark below is one more “I’m sorry”—because you deserve to hear it until it feels true.</p>
+      <p class="sr-only">One thousand small tiles, each representing the words I’m sorry.</p>
+      <div class="sorry__grid" id="sorry-grid" aria-hidden="true"></div>
+      <p class="sorry__footer">If you’re ready, I’m ready—to talk, to listen, and to do better.</p>
+    </section>
+
+    <section class="closing section">
+      <blockquote>
+        “You don’t have to forgive me today. I only hope you know: you were never ordinary to me.”
+      </blockquote>
+    </section>
+
+    <section class="forgive section" aria-labelledby="forgive-title">
+      <div class="forgive__card">
+        <h2 id="forgive-title" class="forgive__question">Will you forgive me?</h2>
+        <div class="forgive__buttons" id="forgive-buttons">
+          <button type="button" class="btn btn--yes" id="btn-yes">yes i forgive youuu</button>
+          <div class="forgive__no-arena" id="forgive-no-arena">
+            <div class="forgive__no-wrap" id="no-wrap">
+              <button type="button" class="btn btn--no" id="btn-no">no i dont forgive you</button>
+            </div>
+          </div>
+        </div>
+        <div class="forgive__output" id="forgive-output" hidden>
+          <p class="forgive__output-line" id="forgive-line" role="status" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__line">Made with care · For <span class="footer__name">SIDDHI</span> · Always</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
